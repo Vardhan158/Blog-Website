@@ -12,7 +12,7 @@ export default function Article() {
   const [loadingLike, setLoadingLike] = useState(false);
   const [loading, setLoading] = useState(true); // ✅ Added loading state
 
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+  const API_URL = import.meta.env.VITE_API_URL || "https://blog-website-1oq8.onrender.com";
 
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("user"));
