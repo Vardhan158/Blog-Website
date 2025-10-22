@@ -12,7 +12,7 @@ const Signup = () => {
   const [message, setMessage] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+  const API_URL = import.meta.env.VITE_API_URL || "https://blog-website-1oq8.onrender.com";
 
   // Auto-hide message after 3 seconds
   useEffect(() => {
