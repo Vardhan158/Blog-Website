@@ -8,7 +8,7 @@ const EditProfile = ({ userData, setUserData }) => {
   const [email, setEmail] = useState("");
   const [profileImage, setProfileImage] = useState(null);
   const [error, setError] = useState("");
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+  const API_URL = import.meta.env.VITE_API_URL || "https://blog-website-1oq8.onrender.com";
 
   // ✅ Gravatar fallback
   const getGravatar = (email) => {
