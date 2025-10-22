@@ -12,7 +12,7 @@ const About = () => {
     const fetchAboutContent = async () => {
       try {
         const res = await axios.get("https://blog-website-1oq8.onrender.com/api/about");
-        setAboutData(res.data);
+        setAboutData(res.data); 
       } catch (error) {
         console.error("Error fetching about content:", error);
       }
