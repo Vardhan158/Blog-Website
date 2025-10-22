@@ -15,7 +15,7 @@ export default function Dashboard() {
 
   const token = localStorage.getItem("token");
   const axiosConfig = { headers: { Authorization: `Bearer ${token}` } };
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+  const API_URL = import.meta.env.VITE_API_URL || "https://blog-website-1oq8.onrender.com";
 
   // Fetch user profile
   useEffect(() => {
